@@ -53,16 +53,16 @@ a:link {
     color: black;
 }
 
-a:hover {
-    color: rgb(180, 255, 0);
-}
-
 h5.navigation:hover {
     background-color: rgb(96, 230, 107);
 }
 
 a:visited {
     color: rgb(255, 183, 0);
+}
+
+a:hover {
+    color: rgb(180, 255, 0);
 }
 
 a:active {
