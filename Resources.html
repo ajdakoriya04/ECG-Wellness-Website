@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content = "width=device-width, initial-scale=1">
         <link rel="stylesheet" href = "StyleSheet.css">
+        <script src="JSSheet.js" defer></script>
     </head>
     <body>
 
@@ -12,21 +13,21 @@
             <h1>ECG Wellness</h1>
 
             <div id="navbar">
-                <div class="navigation">
+                <h5 class="navigation">
                     <a href="HomePage.html">HOME</a>
-                </div>
-                <div class="navigation">
+                </h5>
+                <h5 class="navigation">
                     <a href="Resources.html">RESOURCES</a>
-                </div>
-                <div class="navigation">
+                </h5>
+                <h5 class="navigation">
                     <a>ACTIVITIES</a>
-                </div>
-                <div class="navigation">
-                    <a href="SchoolGroups.html">SCHOOL GROUPS</a>
-                </div>
-                <div class="navigation">
+                </h5>
+                <h5 class="navigation">
+                    <a href="SchoolGroups.html">GROUPS</a>
+                </h5>
+                <h5 class="navigation">
                     <a>NEWS</a>
-                </div>
+                </h5>
             </div>
 
         </header>
@@ -41,10 +42,11 @@
             <div id="websterembed"></div>
             <h3>Therapy Services</h3>
             <p>For those who prefer to seek help outside of school, therapists are always an option -- and one that is accessible to people of all ages. The map embed below shows therapy services nearby Guilford College. Use the buttons to toggle between child therapy and adult therapy.</p>
-            <div id="mapembed"></div>
+            <iframe id="websterembed" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d12897.553559218377!2d-79.88567150277036!3d36.08401924566371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1schild%20therapist%20near%20me!5e0!3m2!1sen!2sus!4v1661889715861!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <h3>Random Cat Picture Generator</h3>
             <p>Here's some random cat pictures to brighten your day! Reload the page for a new picture. Source: <strong id="randomcatpictureurl">https://loremflickr.com/320/240</strong></p>
             <div><img id="randomcatpicture" src="https://loremflickr.com/320/240" alt="Random Cat Image"></div>
+            <!--<button id="reload">Reload</button> -->
         </section>
 
         <footer>
