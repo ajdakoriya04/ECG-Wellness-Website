@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ECG Wellness | Quiz</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1">
+        <link rel="stylesheet" href = "StyleSheet.css">
+        <script src="JSSheetActivitiesQuiz.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>ECG Wellness</h1>
+
+            <div id="navbar">
+                <h5 class="navigation">
+                    <a href="HomePage.html">HOME</a>
+                </h5>
+                <h5 class="navigation">
+                    <a href="Resources.html">RESOURCES</a>
+                </h5>
+                <h5 class="navigation">
+                    <a href="Activities.html">ACTIVITIES</a>
+                </h5>
+                <h5 class="navigation">
+                    <a href="SchoolGroups.html">GROUPS</a>
+                </h5>
+                <h5 class="navigation">
+                    <a href="News.html">NEWS</a>
+                </h5>
+            </div>
+
+        </header>
+
+        <div id="headerbottomspacing"></div>
+
+        <section class="pagedescription">
+            <h2>Quiz</h2>
+            <p>Answer the following questions as best as you can, and the quiz will make recommendations on managing your mental health!</p>
+        </section>
+
+        <!-- The quiz was made with help using: https://www.youtube.com/watch?v=C7NsIRhoWuE&t=3s -->
+
+        <section>
+            <form id="quizform" name="WellnessQuiz">
+                <h3>Question 1</h3>
+                <p><em>How social are you?</em></p>
+                <input type="radio" name="question1" value="Very social"> Fairly social; I love talking with people and I am not generally nervous conversing, even with strangers
+                <br>
+                <input type="radio" name="question1" value="Somewhat social"> Somewhat social; I'll talk when other people are talking but I don't generally start conversations unless I'm with my close ones
+                <br>
+                <input type="radio" name="question1" value="Not social"> Not very social; I'm pretty shy and generally keep to myself in most situations, but I occasionally participate in social activities
+                <br>
+                <input type="radio" name="question1" value="Against social"> Not social at all; I strongly prefer being alone and very rarely converse or participate in social activities
+                <br>
+                <h3>Question 2</h3>
+                <p><em>How physically active are you?</em></p>
+                <input type="radio" name="question2" value="Very active"> Very active; I frequently exercise by either playing sports or working out at a gym
+                <br>
+                <input type="radio" name="question2" value="Somewhat active"> Somewhat active; I often go on walks or runs, and I'll participate in more intense activity on occasion
+                <br>
+                <input type="radio" name="question2" value="Not active"> Not very active; I'm not generally physically active but I am not completely opposed to it
+                <br>
+                <input type="radio" name="question2" value="Against active"> Not active at all; I don't like exerting my body and exclusively stay indoors
+                <br>
+                <h3>Question 3</h3>
+                <p><em>On average, how many hours do you sleep per night?</em></p>
+                <input type="radio" name="question3" value="Very sleep"> 8+ hours
+                <br>
+                <input type="radio" name="question3" value="Somewhat sleep"> 6-8 hours
+                <br>
+                <input type="radio" name="question3" value="Not sleep"> 1-6 hours
+                <br>
+                <input type="radio" name="question3" value="Against sleep"> Less than 1 hour
+                <br>
+                <h3>Question 4</h3>
+                <p><em>How open are you to discussing your mental wellbeing?</em></p>
+                <input type="radio" name="question4" value="Very open"> Very open; I make sure to talk about things that are weighing me down. I currently do or have sought professional help in the past.
+                <br>
+                <input type="radio" name="question4" value="Somewhat open"> Somewhat open; I do talk about my issues with people that I am close with, but not on a regular basis
+                <br>
+                <input type="radio" name="question4" value="Not open"> Not generally open; it's hard to open up to others but I have been able to talk about the bigger things that weigh me down the most
+                <br>
+                <input type="radio" name="question4" value="Against open"> Not open at all; I get extremely uncomfortable discussing what's on my mind with other people, even if I am close with them
+                <h3>Question 5</h3>
+                <p><em>Rate your mental health</em></p>
+                <input type="radio" name="question5" value="4"> 4/4 -- I feel great 24/7!
+                <br>
+                <input type="radio" name="question5" value="3"> 3/4 -- Sometimes I feel down, but I'm generally happy
+                <br>
+                <input type="radio" name="question5" value="2"> 2/4 -- Not generally the happiest, but not generally sad
+                <br>
+                <input type="radio" name="question5" value="1"> 1/4 -- I feel depressed and/or anxious most days, and I would like to receive help
+                <br>
+                <h3></h3>
+                <input id="submit" type="button" value="Submit">
+                <br>
+                <br>
+                <div id="result" class="hide">
+                </div>
+            </form>
+        </form>
+        </section>
+
+        <footer>
+            <p>Website created by Ajay Dakoriya. Last edited 9/6/2022.</p>
+        </footer>
+    </body>
+</html>
