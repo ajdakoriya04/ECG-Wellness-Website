@@ -234,6 +234,7 @@ button#reload, input#submit {
     border: 2px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .gif {
@@ -255,6 +256,7 @@ button#reload:hover, button#seechild:hover, button#seeadult:hover {
     transition-property: background-color;
     transition-duration: 0.95s;
     background-color: 2px solid transparent;
+    cursor: pointer;
 }
 
 section.pagedescription {
@@ -273,7 +275,7 @@ div#result {
     background-color: rgb(217, 255, 127);
 }
 
-div.hide {
+.hide {
     display: none;
 }
 
@@ -298,6 +300,10 @@ footer {
         font-size: 125%;
     }
 
+    div#headerbottomspacing {
+        padding-bottom: 12.5%;
+    }
+
     .gif {
         width: 75%;
         height: 75%;
@@ -314,13 +320,26 @@ footer {
         width: 250px;
         font-size: 3.5px;
         padding-bottom: 5%;
+        display: none;
+    }
+
+    /* to help make this visible again, I used the following source for guidance: https://stackoverflow.com/questions/20598568/how-to-display-and-hide-a-div-with-css */
+
+    div#dropdownhamburger #hamburger{
+        display: block;
+        margin-bottom: 15%;
+    }
+
+    div#dropdownhamburger:hover div#navigationhamburger {
+        display: block;
+        width: 100%;
+        text-align: left;
+        font-size: 2.5em;
+        margin-bottom: 5%;
     }
 
     h1 {
         font-size: 85%;
     }
-}
 
-/* phone landscape */
-@media (min-width: 750px) {
 }
